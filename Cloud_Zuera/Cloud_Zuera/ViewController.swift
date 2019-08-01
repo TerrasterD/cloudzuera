@@ -10,7 +10,9 @@ import UIKit
 import Alamofire
 import SwiftyJSON
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
+
+    let arrayNames = Names()
     
     @IBOutlet var tblJSON: UITableView!
     var arrRes = [[String:AnyObject]]() //Array of dictionary 
@@ -32,7 +34,13 @@ class ViewController: UIViewController {
         }
         // Do any additional setup after loading the view.
     }
-
-
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        <#code#>
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        <#code#>
+    }
 }
 
