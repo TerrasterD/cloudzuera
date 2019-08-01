@@ -1,0 +1,22 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'Cloud_Zuera' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for Cloud_Zuera
+      pod 'Alamofire'
+      pod 'SwiftyJSON'
+
+  target 'Cloud_ZueraTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'Cloud_ZueraUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end

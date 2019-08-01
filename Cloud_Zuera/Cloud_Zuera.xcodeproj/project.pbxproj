@@ -1,0 +1,728 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		34D6A1475DC0D56EB8EC73B0 /* Pods_Cloud_ZueraTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E5C5BF0176D798CF0C5622B /* Pods_Cloud_ZueraTests.framework */; };
+		53F8133005E646D4BB39BB35 /* Pods_Cloud_Zuera.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AB318F649182694505DBC9E /* Pods_Cloud_Zuera.framework */; };
+		95A524D022F356CE0065B684 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A524CF22F356CE0065B684 /* AppDelegate.swift */; };
+		95A524D222F356CE0065B684 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A524D122F356CE0065B684 /* ViewController.swift */; };
+		95A524D522F356CE0065B684 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95A524D322F356CE0065B684 /* Main.storyboard */; };
+		95A524D722F356D00065B684 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95A524D622F356D00065B684 /* Assets.xcassets */; };
+		95A524DA22F356D00065B684 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95A524D822F356D00065B684 /* LaunchScreen.storyboard */; };
+		95A524E522F356D00065B684 /* Cloud_ZueraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A524E422F356D00065B684 /* Cloud_ZueraTests.swift */; };
+		95A524F022F356D00065B684 /* Cloud_ZueraUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A524EF22F356D00065B684 /* Cloud_ZueraUITests.swift */; };
+		D34190B2072895C28BDF19A1 /* Pods_Cloud_ZueraUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4A018BEB97B5D084C41E3B8 /* Pods_Cloud_ZueraUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		95A524E122F356D00065B684 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95A524C422F356CE0065B684 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 95A524CB22F356CE0065B684;
+			remoteInfo = Cloud_Zuera;
+		};
+		95A524EC22F356D00065B684 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95A524C422F356CE0065B684 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 95A524CB22F356CE0065B684;
+			remoteInfo = Cloud_Zuera;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		144DB013EE0A783D89DAC8E3 /* Pods-Cloud_Zuera.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cloud_Zuera.release.xcconfig"; path = "Target Support Files/Pods-Cloud_Zuera/Pods-Cloud_Zuera.release.xcconfig"; sourceTree = "<group>"; };
+		3AB1628D8EAB6DFD300EA7D5 /* Pods-Cloud_ZueraUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cloud_ZueraUITests.release.xcconfig"; path = "Target Support Files/Pods-Cloud_ZueraUITests/Pods-Cloud_ZueraUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5E5C5BF0176D798CF0C5622B /* Pods_Cloud_ZueraTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cloud_ZueraTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AB318F649182694505DBC9E /* Pods_Cloud_Zuera.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cloud_Zuera.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		72A50EAB69DB02DE958C1B5B /* Pods-Cloud_ZueraUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cloud_ZueraUITests.debug.xcconfig"; path = "Target Support Files/Pods-Cloud_ZueraUITests/Pods-Cloud_ZueraUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7CB45893094497D9A7FF6859 /* Pods-Cloud_ZueraTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cloud_ZueraTests.debug.xcconfig"; path = "Target Support Files/Pods-Cloud_ZueraTests/Pods-Cloud_ZueraTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7D7B91C2C09F11782DF3A03F /* Pods-Cloud_ZueraTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cloud_ZueraTests.release.xcconfig"; path = "Target Support Files/Pods-Cloud_ZueraTests/Pods-Cloud_ZueraTests.release.xcconfig"; sourceTree = "<group>"; };
+		95A524CC22F356CE0065B684 /* Cloud_Zuera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cloud_Zuera.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		95A524CF22F356CE0065B684 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		95A524D122F356CE0065B684 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		95A524D422F356CE0065B684 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		95A524D622F356D00065B684 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		95A524D922F356D00065B684 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		95A524DB22F356D00065B684 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95A524E022F356D00065B684 /* Cloud_ZueraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Cloud_ZueraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		95A524E422F356D00065B684 /* Cloud_ZueraTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cloud_ZueraTests.swift; sourceTree = "<group>"; };
+		95A524E622F356D00065B684 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95A524EB22F356D00065B684 /* Cloud_ZueraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Cloud_ZueraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		95A524EF22F356D00065B684 /* Cloud_ZueraUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cloud_ZueraUITests.swift; sourceTree = "<group>"; };
+		95A524F122F356D00065B684 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF642A39E6F54DE13374DAC3 /* Pods-Cloud_Zuera.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cloud_Zuera.debug.xcconfig"; path = "Target Support Files/Pods-Cloud_Zuera/Pods-Cloud_Zuera.debug.xcconfig"; sourceTree = "<group>"; };
+		E4A018BEB97B5D084C41E3B8 /* Pods_Cloud_ZueraUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cloud_ZueraUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		95A524C922F356CE0065B684 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53F8133005E646D4BB39BB35 /* Pods_Cloud_Zuera.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95A524DD22F356D00065B684 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34D6A1475DC0D56EB8EC73B0 /* Pods_Cloud_ZueraTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95A524E822F356D00065B684 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D34190B2072895C28BDF19A1 /* Pods_Cloud_ZueraUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7B114B2C3CA1EEEE1A6336AF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CF642A39E6F54DE13374DAC3 /* Pods-Cloud_Zuera.debug.xcconfig */,
+				144DB013EE0A783D89DAC8E3 /* Pods-Cloud_Zuera.release.xcconfig */,
+				7CB45893094497D9A7FF6859 /* Pods-Cloud_ZueraTests.debug.xcconfig */,
+				7D7B91C2C09F11782DF3A03F /* Pods-Cloud_ZueraTests.release.xcconfig */,
+				72A50EAB69DB02DE958C1B5B /* Pods-Cloud_ZueraUITests.debug.xcconfig */,
+				3AB1628D8EAB6DFD300EA7D5 /* Pods-Cloud_ZueraUITests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		95A524C322F356CE0065B684 = {
+			isa = PBXGroup;
+			children = (
+				95A524CE22F356CE0065B684 /* Cloud_Zuera */,
+				95A524E322F356D00065B684 /* Cloud_ZueraTests */,
+				95A524EE22F356D00065B684 /* Cloud_ZueraUITests */,
+				95A524CD22F356CE0065B684 /* Products */,
+				7B114B2C3CA1EEEE1A6336AF /* Pods */,
+				FFD04B8864A97BA061863E2E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		95A524CD22F356CE0065B684 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				95A524CC22F356CE0065B684 /* Cloud_Zuera.app */,
+				95A524E022F356D00065B684 /* Cloud_ZueraTests.xctest */,
+				95A524EB22F356D00065B684 /* Cloud_ZueraUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		95A524CE22F356CE0065B684 /* Cloud_Zuera */ = {
+			isa = PBXGroup;
+			children = (
+				95A524CF22F356CE0065B684 /* AppDelegate.swift */,
+				95A524D122F356CE0065B684 /* ViewController.swift */,
+				95A524D322F356CE0065B684 /* Main.storyboard */,
+				95A524D622F356D00065B684 /* Assets.xcassets */,
+				95A524D822F356D00065B684 /* LaunchScreen.storyboard */,
+				95A524DB22F356D00065B684 /* Info.plist */,
+			);
+			path = Cloud_Zuera;
+			sourceTree = "<group>";
+		};
+		95A524E322F356D00065B684 /* Cloud_ZueraTests */ = {
+			isa = PBXGroup;
+			children = (
+				95A524E422F356D00065B684 /* Cloud_ZueraTests.swift */,
+				95A524E622F356D00065B684 /* Info.plist */,
+			);
+			path = Cloud_ZueraTests;
+			sourceTree = "<group>";
+		};
+		95A524EE22F356D00065B684 /* Cloud_ZueraUITests */ = {
+			isa = PBXGroup;
+			children = (
+				95A524EF22F356D00065B684 /* Cloud_ZueraUITests.swift */,
+				95A524F122F356D00065B684 /* Info.plist */,
+			);
+			path = Cloud_ZueraUITests;
+			sourceTree = "<group>";
+		};
+		FFD04B8864A97BA061863E2E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6AB318F649182694505DBC9E /* Pods_Cloud_Zuera.framework */,
+				5E5C5BF0176D798CF0C5622B /* Pods_Cloud_ZueraTests.framework */,
+				E4A018BEB97B5D084C41E3B8 /* Pods_Cloud_ZueraUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		95A524CB22F356CE0065B684 /* Cloud_Zuera */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95A524F422F356D00065B684 /* Build configuration list for PBXNativeTarget "Cloud_Zuera" */;
+			buildPhases = (
+				B6D79ACC8A823099D28CBC43 /* [CP] Check Pods Manifest.lock */,
+				95A524C822F356CE0065B684 /* Sources */,
+				95A524C922F356CE0065B684 /* Frameworks */,
+				95A524CA22F356CE0065B684 /* Resources */,
+				440C22C7655B82AB3F87DA63 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cloud_Zuera;
+			productName = Cloud_Zuera;
+			productReference = 95A524CC22F356CE0065B684 /* Cloud_Zuera.app */;
+			productType = "com.apple.product-type.application";
+		};
+		95A524DF22F356D00065B684 /* Cloud_ZueraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95A524F722F356D00065B684 /* Build configuration list for PBXNativeTarget "Cloud_ZueraTests" */;
+			buildPhases = (
+				CE61EA4982A97E2D76AB628B /* [CP] Check Pods Manifest.lock */,
+				95A524DC22F356D00065B684 /* Sources */,
+				95A524DD22F356D00065B684 /* Frameworks */,
+				95A524DE22F356D00065B684 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				95A524E222F356D00065B684 /* PBXTargetDependency */,
+			);
+			name = Cloud_ZueraTests;
+			productName = Cloud_ZueraTests;
+			productReference = 95A524E022F356D00065B684 /* Cloud_ZueraTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		95A524EA22F356D00065B684 /* Cloud_ZueraUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95A524FA22F356D00065B684 /* Build configuration list for PBXNativeTarget "Cloud_ZueraUITests" */;
+			buildPhases = (
+				A53B1FC7841D72D1B04996A8 /* [CP] Check Pods Manifest.lock */,
+				95A524E722F356D00065B684 /* Sources */,
+				95A524E822F356D00065B684 /* Frameworks */,
+				95A524E922F356D00065B684 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				95A524ED22F356D00065B684 /* PBXTargetDependency */,
+			);
+			name = Cloud_ZueraUITests;
+			productName = Cloud_ZueraUITests;
+			productReference = 95A524EB22F356D00065B684 /* Cloud_ZueraUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		95A524C422F356CE0065B684 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Victor Dângelo";
+				TargetAttributes = {
+					95A524CB22F356CE0065B684 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					95A524DF22F356D00065B684 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 95A524CB22F356CE0065B684;
+					};
+					95A524EA22F356D00065B684 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 95A524CB22F356CE0065B684;
+					};
+				};
+			};
+			buildConfigurationList = 95A524C722F356CE0065B684 /* Build configuration list for PBXProject "Cloud_Zuera" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 95A524C322F356CE0065B684;
+			productRefGroup = 95A524CD22F356CE0065B684 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				95A524CB22F356CE0065B684 /* Cloud_Zuera */,
+				95A524DF22F356D00065B684 /* Cloud_ZueraTests */,
+				95A524EA22F356D00065B684 /* Cloud_ZueraUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		95A524CA22F356CE0065B684 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95A524DA22F356D00065B684 /* LaunchScreen.storyboard in Resources */,
+				95A524D722F356D00065B684 /* Assets.xcassets in Resources */,
+				95A524D522F356CE0065B684 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95A524DE22F356D00065B684 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95A524E922F356D00065B684 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		440C22C7655B82AB3F87DA63 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Cloud_Zuera/Pods-Cloud_Zuera-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Cloud_Zuera/Pods-Cloud_Zuera-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Cloud_Zuera/Pods-Cloud_Zuera-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A53B1FC7841D72D1B04996A8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Cloud_ZueraUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B6D79ACC8A823099D28CBC43 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Cloud_Zuera-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE61EA4982A97E2D76AB628B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Cloud_ZueraTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		95A524C822F356CE0065B684 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95A524D222F356CE0065B684 /* ViewController.swift in Sources */,
+				95A524D022F356CE0065B684 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95A524DC22F356D00065B684 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95A524E522F356D00065B684 /* Cloud_ZueraTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95A524E722F356D00065B684 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95A524F022F356D00065B684 /* Cloud_ZueraUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		95A524E222F356D00065B684 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 95A524CB22F356CE0065B684 /* Cloud_Zuera */;
+			targetProxy = 95A524E122F356D00065B684 /* PBXContainerItemProxy */;
+		};
+		95A524ED22F356D00065B684 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 95A524CB22F356CE0065B684 /* Cloud_Zuera */;
+			targetProxy = 95A524EC22F356D00065B684 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		95A524D322F356CE0065B684 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95A524D422F356CE0065B684 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		95A524D822F356D00065B684 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95A524D922F356D00065B684 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		95A524F222F356D00065B684 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		95A524F322F356D00065B684 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		95A524F522F356D00065B684 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF642A39E6F54DE13374DAC3 /* Pods-Cloud_Zuera.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6NXNC2G55R;
+				INFOPLIST_FILE = Cloud_Zuera/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Victor-Da-ngelo-Teixeira-Ciccarini.Cloud-Zuera";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		95A524F622F356D00065B684 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 144DB013EE0A783D89DAC8E3 /* Pods-Cloud_Zuera.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6NXNC2G55R;
+				INFOPLIST_FILE = Cloud_Zuera/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Victor-Da-ngelo-Teixeira-Ciccarini.Cloud-Zuera";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		95A524F822F356D00065B684 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CB45893094497D9A7FF6859 /* Pods-Cloud_ZueraTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6NXNC2G55R;
+				INFOPLIST_FILE = Cloud_ZueraTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Victor-Da-ngelo-Teixeira-Ciccarini.Cloud-ZueraTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cloud_Zuera.app/Cloud_Zuera";
+			};
+			name = Debug;
+		};
+		95A524F922F356D00065B684 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D7B91C2C09F11782DF3A03F /* Pods-Cloud_ZueraTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6NXNC2G55R;
+				INFOPLIST_FILE = Cloud_ZueraTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Victor-Da-ngelo-Teixeira-Ciccarini.Cloud-ZueraTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cloud_Zuera.app/Cloud_Zuera";
+			};
+			name = Release;
+		};
+		95A524FB22F356D00065B684 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72A50EAB69DB02DE958C1B5B /* Pods-Cloud_ZueraUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6NXNC2G55R;
+				INFOPLIST_FILE = Cloud_ZueraUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Victor-Da-ngelo-Teixeira-Ciccarini.Cloud-ZueraUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Cloud_Zuera;
+			};
+			name = Debug;
+		};
+		95A524FC22F356D00065B684 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3AB1628D8EAB6DFD300EA7D5 /* Pods-Cloud_ZueraUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6NXNC2G55R;
+				INFOPLIST_FILE = Cloud_ZueraUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Victor-Da-ngelo-Teixeira-Ciccarini.Cloud-ZueraUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Cloud_Zuera;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		95A524C722F356CE0065B684 /* Build configuration list for PBXProject "Cloud_Zuera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95A524F222F356D00065B684 /* Debug */,
+				95A524F322F356D00065B684 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95A524F422F356D00065B684 /* Build configuration list for PBXNativeTarget "Cloud_Zuera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95A524F522F356D00065B684 /* Debug */,
+				95A524F622F356D00065B684 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95A524F722F356D00065B684 /* Build configuration list for PBXNativeTarget "Cloud_ZueraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95A524F822F356D00065B684 /* Debug */,
+				95A524F922F356D00065B684 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95A524FA22F356D00065B684 /* Build configuration list for PBXNativeTarget "Cloud_ZueraUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95A524FB22F356D00065B684 /* Debug */,
+				95A524FC22F356D00065B684 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 95A524C422F356CE0065B684 /* Project object */;
+}
